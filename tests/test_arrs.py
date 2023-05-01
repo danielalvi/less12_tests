@@ -1,9 +1,10 @@
 from utils import arrs
-
-
+import pytest
 def test_get():
     assert arrs.get([1, 2, 3], 1) != 3
     assert arrs.get([], 0) == None
+
+
 
 
 def test_slice():
